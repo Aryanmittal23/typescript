@@ -16,3 +16,10 @@ calculateArea({
     length: 10,
     side: 10
 });
+function render(circle) {
+    var width = circle.borderWidth;
+    console.log("circle created");
+}
+render({
+    radius: 5
+});
